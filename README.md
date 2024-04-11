@@ -28,9 +28,13 @@ To run this project locally, follow these steps:
 
 2. open `index.html`
 
-## Screenshots
+## Screenshots Desktop
 
-![Screenshot](https://github.com/jaymodi993/Jay_Modi_portfolio/blob/main/Screenshot%202024-04-10%20125950.png)
+![Screenshot](https://github.com/jaymodi993/Jay_Modi_portfolio/blob/main/img/ss.png)
+
+## Screenshots Mobile
+
+![Screenshot](https://github.com/jaymodi993/Jay_Modi_portfolio/blob/main/img/WhatsApp%20Image%202024-04-11%20at%2023.08.47_ef018e7f.jpg)
 
 
 
