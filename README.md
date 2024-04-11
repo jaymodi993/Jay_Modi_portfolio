@@ -15,7 +15,7 @@ Welcome to my portfolio project! This project aims to showcase my skills, projec
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap (version X.X.X)
+- Bootstrap (version 5.3.3)
 
 ## Setup
 
