@@ -28,6 +28,13 @@ To run this project locally, follow these steps:
 
 2. open `index.html`
 
+## See Live Priview
+
+   ```bash
+   https://jaymodi-portfolio.netlify.app/
+   ```
+   https://jaymodi-portfolio.netlify.app/
+
 ## Screenshots Desktop
 
 ![Screenshot](https://github.com/jaymodi993/Jay_Modi_portfolio/blob/main/img/ss.png)
