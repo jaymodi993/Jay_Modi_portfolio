@@ -6,7 +6,6 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    overflow-x: none;
   }
 
   body {
@@ -114,7 +113,13 @@
     font-size: 15px;
     font-style: italic;
     max-height: 500px;
-    overflow-y: auto;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .foursec .box p::-webkit-scrollbar {
+    display: none;
   }
 
   .lc {

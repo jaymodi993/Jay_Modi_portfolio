@@ -10,7 +10,14 @@
 body {
   background-color: rgb(0, 0, 0);
   color: white;
+  overflow-y: scroll;
   overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -152,6 +159,14 @@ main {
   font-weight: 600;
   font-size: 20px;
   font-style: italic;
+  max-height: 500px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.foursec .box p::-webkit-scrollbar {
+  display: none;
 }
 
 main hr {
