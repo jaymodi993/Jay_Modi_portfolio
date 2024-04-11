@@ -46,28 +46,24 @@ nav .left img {
 }
 
 .right {
-  font-size: 35px;
-  float: right;
-  width: 80%;
-  padding-top: 5px;
+  display: none;
+  cursor: pointer;
 }
 
-nav .right ul {
+.navbar-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
-nav .right ul li {
-  list-style: none;
-}
-
-nav .right ul li a {
-  text-decoration: none;
+.navbar-links a {
   color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 30px;
 }
 
-nav .right ul li a:hover {
+.navbar-links a:hover {
   color: rgb(91, 188, 255);
   text-decoration: none;
 }
@@ -90,13 +86,14 @@ main {
   font-size: 44px;
   width: 70%;
   display: block;
-  float: left;
+  float: right;
+  margin-left: 150px;
 }
 
 .rightsec {
   width: 30%;
   display: block;
-  float: right;
+  float: left;
 }
 
 .rightsec img {
@@ -134,7 +131,6 @@ main {
   color: white;
   border: 3px solid white;
   border-radius: 10px;
-  font-size: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 25px;
@@ -280,6 +276,11 @@ main hr {
   width: 80%;
   margin: auto;
   min-height: 500px;
+}
+
+.exb {
+  display: flex;
+  justify-content: center;
 }
 
 .cd {
