@@ -16,3 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
     navbarLinks.classList.remove("active");
   });
 });
+
+function hi() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "lovercomic7@gmail.com",
+    Password: "6473DDD9A90E5AB3ACE74B0AB490A75125CE",
+    To: "webdev.jaymodi@gmail.com",
+    From: document.getElementById("em").value,
+    Subject: document.getElementById("su").value,
+    Body: "And this is the body",
+  }).then((message) => alert(message));
+}
