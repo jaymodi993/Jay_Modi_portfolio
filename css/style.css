@@ -190,7 +190,7 @@ main hr {
   background-color: white;
   width: 100%;
   height: 2px;
-  margin: 96px 0;
+  margin: 150px 0;
   display: flex;
 }
 
@@ -203,51 +203,60 @@ main hr {
 
 .vtitle2 {
   position: relative;
-  top: 67px;
+  top: 57px;
   width: 149px;
   margin: 0;
   padding: 0;
-  left: -43px;
+  left: -62px;
 }
 
 .vdes2 {
   position: relative;
-  top: 80px;
+  top: 65px;
   color: gray;
   width: 149px;
   font-size: 11px;
   margin: 0;
   padding: 0;
-  left: -43px;
+  left: -59px;
 }
 
 .imt {
-  width: 35px;
+  width: 90px;
   position: relative;
-  top: -40px;
-  left: -14px;
+  top: -95px;
+  left: -47px;
+  margin: 0;
+  padding: 0;
+}
+
+.imt1 {
+  width: 110px;
+  position: relative;
+  top: -53px;
+  left: -55px;
   margin: 0;
   padding: 0;
 }
 
 .vdes1 {
   position: relative;
-  top: 70px;
+  top: 20px;
   color: gray;
   width: 149px;
   font-size: 11px;
   margin: 0;
   padding: 0;
-  left: -43px;
+  left: -55px;
 }
 
 .vtitle1 {
   position: relative;
-  top: 60px;
+  top: 12px;
   width: 149px;
   margin: 0;
   padding: 0;
-  left: -43px;
+  left: -55px;
 }
 
 .thsec {
